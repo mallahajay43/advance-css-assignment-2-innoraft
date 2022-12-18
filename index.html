@@ -5,33 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>advance-css-2</title>
+    <script src="https://kit.fontawesome.com/224d424ebb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav>
-      <img class="nav--logo" src="./images/head_logo.jpg" alt="icon" />
-      <ul class="nav--menu">
-        <li class="nav-menu__links"><p>Home</p></li>
-        <li class="nav-menu__links"><p>About</p></li>
-        <li class="nav-menu__links"><p>Services</p></li>
-        <li class="nav-menu__links"><p>Portfolio</p></li>
-        <li class="nav-menu__links"><p>Price</p></li>
-        <li class="nav-menu__links">
-          Blog
-          <img src="./images/icons/darrow.svg" alt="" />
-        </li>
-        <li class="nav-menu__links">
-          <img class="nav-icon" src="./images/mail.jpg" alt="" />
-        </li>
-      </ul>
-    </nav>
-    <div class="banner-layout flex-center">
+    <header>
+      <nav>
+        <img class="nav--logo" src="./images/head_logo.jpg" alt="icon" />
+        <ul class="nav--menu flex-center">
+          <li class="nav-menu__links"><p>Home</p></li>
+          <li class="nav-menu__links"><p>About</p></li>
+          <li class="nav-menu__links"><p>Services</p></li>
+          <li class="nav-menu__links"><p>Portfolio</p></li>
+          <li class="nav-menu__links"><p>Price</p></li>
+          <li class="nav-menu__links">
+            Blog
+            <img src="./images/icons/darrow.svg" alt="" />
+          </li>
+          <li class="nav-menu__links">
+            <img class="nav-icon" src="./images/mail.jpg" alt="" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="banner-layout flex-center bg--dark">
       <div class="banner-layout__content flex-center">
         <h1>
           We Will <strong>Make</strong> Your <strong>Business</strong> Great
           Again
         </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dolem dolor.</p>
+        <p class="color-faded--light">Lorem ipsum dolor sit amet consectetur adipisicing elit dolem dolor.</p>
         <div class="btn-container">
           <button class="btn btn-filled">contact us</button>
           <button class="btn" >discover now</button>
@@ -40,98 +43,153 @@
       <img class="darrow" src="./images/icons/darrow.png" alt="" />
     </div>
 
-    <div class="intro-layout container">
-      <div class="intro-layout__article">
-        <h1 class="heading">Hello <strong>World</strong></h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos labore
-          in voluptatibus, iste iure delectus laudantium atque quibusdam
-          praesentium, nobis, at numquam distinctio magni accusantium!
-        </p>
-        <div class="intro-layout__article__sub-article flex-center">
-          <img src="./images/icons/i-diamond_b.svg" alt=""/>
-          <span>Exploring your area of activity</span>
-        </div>
-        <div class="intro-layout__article__sub-article flex-center">
-          <img src="./images/icons/i-wallet_b.svg" alt=""/>
-          <span>Competitive analysis</span>
-        </div>
-        <div class="intro-layout__article__sub-article flex-center">
-          <img src="./images/icons/i-trophy_b.svg" alt=""/>
-          <span>to solve your problems</span>
-        </div>
-      </div>
-      <img class="intro-layout__pic" src="./images/img-3.jpg"></img>
-    </div>
-
-    <div class="service-layout container bg-dark">
-      <div class="service-layout__content flex-center">
-        <h1 class="heading">Some of our <strong>best services</strong> to solve your problems</h1>
-        <div class="service-layout__content__article flex-center">
-          <div class="service-layout__content__article__sub flex-center">
-            <div class="service-layout__content__article__sub__icon article-icon flex-center">
-              <img src="./images/icons/i-message_w.svg" alt="">
-            </div>
-            <h4>Digital Marketing</h4>
-            <p>Lorem ipsum dolor adipisicing sit consectetur amet elit. Delectus quam provident</p>
+    <div class="intro-layout">
+      <div class="container flex-center">
+        <div class="intro-layout__article">
+          <h1 class="heading">Hello <strong>World</strong></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos labore
+            in voluptatibus, iste iure delectus laudantium atque quibusdam
+            praesentium, nobis, at numquam distinctio magni accusantium!
+          </p>
+          <div class="intro-layout__article__sub-article flex-center">
+            <img src="./images/icons/i-diamond_b.svg" alt=""/>
+            <span>Exploring your area of activity</span>
           </div>
-          <div class="service-layout__content__article__sub flex-center">
-            <div class="service-layout__content__article__sub__icon article-icon flex-center">
-              <img src="./images/icons/i-feature_w.svg" alt="">
-            </div>
-            <h4>Web Development</h4>
-            <p>Lorem ipsum dolor adipisicing sit consectetur amet elit. Delectus quam provident</p>
+          <div class="intro-layout__article__sub-article flex-center">
+            <img src="./images/icons/i-wallet_b.svg" alt=""/>
+            <span>Competitive analysis</span>
           </div>
-          <div class="service-layout__content__article__sub flex-center">
-            <div class="service-layout__content__article__sub__icon article-icon flex-center">
-              <img src="./images/icons/i-sketch_w.svg" alt="">
-            </div>
-            <h4>UI/UX Design</h4>
-            <p>Lorem ipsum dolor adipisicing sit consectetur amet elit. Delectus quam provident</p>
+          <div class="intro-layout__article__sub-article flex-center">
+            <img src="./images/icons/i-trophy_b.svg" alt=""/>
+            <span>to solve your problems</span>
           </div>
         </div>
-        <button class="btn btn-filled" >Order a service</button>
+        <img class="intro-layout__pic" src="./images/img-3.jpg"></img>
       </div>
     </div>
 
-    <div class="graphics-layout container">
-      <div class="graphics-layout__content">
-        <h1 class="heading"><strong>Good design</strong> is obvious Great design is transparent.</h1>
-        <p><strong>About Joe &#169</strong>graphic designer, digital literacy teacher</p>
-        <ul class="navigation-bar">
-          <li>show all</li>
-          <li>design</li>
-          <li>art</li>
-          <li>code</li>
-        </ul>
-        <div class="grid-group">
-          <div class="grid-group__block grid-row-span2">
-            <img src="./images/12-min.jpg" alt="">
+    <div class="service-layout bg--dark">
+      <div class="container flex-center">
+        <div class="service-layout__content flex-center">
+          <h1 class="heading">Some of our <strong>best services</strong> to solve your problems</h1>
+          <div class="service-layout__content__article flex-center">
+            <div class="service-layout__content__article__sub flex-center">
+              <div class="service-layout__content__article__sub__icon article-icon flex-center">
+                <img src="./images/icons/i-message_w.svg" alt="">
+              </div>
+              <h4>Digital Marketing</h4>
+              <p class="color-faded--light">Lorem ipsum dolor adipisicing sit consectetur amet elit. Delectus quam provident</p>
+            </div>
+            <div class="service-layout__content__article__sub flex-center">
+              <div class="service-layout__content__article__sub__icon article-icon flex-center">
+                <img src="./images/icons/i-feature_w.svg" alt="">
+              </div>
+              <h4>Web Development</h4>
+              <p class="color-faded--light">Lorem ipsum dolor adipisicing sit consectetur amet elit. Delectus quam provident</p>
+            </div>
+            <div class="service-layout__content__article__sub flex-center">
+              <div class="service-layout__content__article__sub__icon article-icon flex-center">
+                <img src="./images/icons/i-sketch_w.svg" alt="">
+              </div>
+              <h4>UI/UX Design</h4>
+              <p class="color-faded--light">Lorem ipsum dolor adipisicing sit consectetur amet elit. Delectus quam provident</p>
+            </div>
           </div>
-          <div class="grid-group__block">
-            <img src="./images/2-min.jpg" alt="image">
-          </div>
-          <div class="grid-group__block">
-            <img src="./images/2-min.jpg" alt="image">
-          </div>
-          <div class="grid-group__block">
-            <img src="./images/2-min.jpg" alt="image">
-          </div>
-          <div class="grid-group__block grid-row-span2">
-            <img src="./images/12-min.jpg" alt="image">
-          </div>
-          <div class="grid-group__block">
-            <img src="./images/2-min.jpg" alt="image">
-          </div>
-          <div class="grid-group__block">
-            <img src="./images/2-min.jpg" alt="image">
-          </div>
+          <button class="btn btn-filled" >Order a service</button>
         </div>
       </div>
     </div>
 
-    <div class="container container--achievements bg-dark">
-      <div class="testimonial-group flex-center">
+    <div class="graphics-layout">
+      <div class="container flex-center">
+        <div class="graphics-layout__content">
+          <h1 class="heading"><strong>Good design</strong> is obvious Great design is transparent.</h1>
+          <p class="m-b--30"><strong>About Joe &#169</strong>graphic designer, digital literacy teacher</p>
+          <ul class="navigation-bar">
+            <li>show all</li>
+            <li>design</li>
+            <li>art</li>
+            <li>code</li>
+          </ul>
+          <div class="grid-group">
+            <div class="grid-group__block grid-row-span2">
+              <img src="./images/12-min.jpg" alt="">
+              <div class="hover-option flex-center">
+                  <div class="plus-icon flex-center">
+                    <i class="fas fa-plus fa-2x"></i>
+                  </div>
+                  <h2 class="project-title m-b--20">Project Title</h2>
+                  <p class="project-description color-faded--light m--0">Code</p>
+              </div>
+            </div>
+            <div class="grid-group__block">
+              <img src="./images/2-min.jpg" alt="image">
+              <div class="hover-option flex-center">
+                <div class="plus-icon flex-center">
+                  <i class="fas fa-plus fa-2x"></i>
+                </div>
+                <h2 class="project-title m-b--20">Project Title</h2>
+                <p class="project-description color-faded--light m--0">Code</p>
+            </div>
+            </div>
+            <div class="grid-group__block">
+              <img src="./images/2-min.jpg" alt="image">
+              <div class="hover-option flex-center">
+                <div class="plus-icon flex-center">
+                  <i class="fas fa-plus fa-2x"></i>
+                </div>
+                <h2 class="project-title m-b--20">Project Title</h2>
+                <p class="project-description color-faded--light m--0">Code</p>
+            </div>
+            </div>
+            <div class="grid-group__block">
+              <img src="./images/2-min.jpg" alt="image">
+              <div class="hover-option flex-center">
+                <div class="plus-icon flex-center">
+                  <i class="fas fa-plus fa-2x"></i>
+                </div>
+                <h2 class="project-title m-b--20">Project Title</h2>
+                <p class="project-description color-faded--light m--0">Code</p>
+            </div>
+            </div>
+            <div class="grid-group__block grid-row-span2">
+              <img src="./images/12-min.jpg" alt="image">
+              <div class="hover-option flex-center">
+                <div class="plus-icon flex-center">
+                  <i class="fas fa-plus fa-2x"></i>
+                </div>
+                <h2 class="project-title m-b--20">Project Title</h2>
+                <p class="project-description color-faded--light m--0">Code</p>
+            </div>
+            </div>
+            <div class="grid-group__block">
+              <img src="./images/2-min.jpg" alt="image">
+              <div class="hover-option flex-center">
+                <div class="plus-icon flex-center">
+                  <i class="fas fa-plus fa-2x"></i>
+                </div>
+                <h2 class="project-title m-b--20">Project Title</h2>
+                <p class="project-description color-faded--light m--0">Code</p>
+            </div>
+            </div>
+            <div class="grid-group__block">
+              <img src="./images/2-min.jpg" alt="image">
+              <div class="hover-option flex-center">
+                <div class="plus-icon flex-center">
+                  <i class="fas fa-plus fa-2x"></i>
+                </div>
+                <h2 class="project-title m-b--20">Project Title</h2>
+                <p class="project-description color-faded--light m--0">Code</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout--achievements bg-dark">
+      <div class="testimonial-group container flex-center">
         <article class="testimonial testimonial--achievements flex-center">
             <div class="testimonial__icon article-icon flex-center">
               <img src="./images/icons/i-team.svg" alt="">
@@ -162,10 +220,10 @@
         </article>
       </div> 
     </div>
-    <div class="container container--pricing">
-      <div class="container-pricing__content flex-center">
+    <div class="layout--pricing">
+      <div class="container container--pricing flex-center">
         <h1 class="heading">Flexible <strong>Pricing</strong> Plans</h1>
-        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p class="paragraph m-b--60">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
         <div class="cards flex-center">
           <div class="card card--trial-version">
             <article class="article--head">
@@ -193,7 +251,7 @@
               <p class="feature">Free Email address</p>
               <p class="feature feature--disabled">Friendly support</p>
             </article>
-            <button class="btn btn-filled">purchase</button>
+            <button class="btn btn-dark">purchase</button>
           </div>
           <div class="card card--extended">
             <article class="article--head">
@@ -213,8 +271,8 @@
       </div>
     </div>
 
-    <div class="container container--testimonials bg-dark">
-      <div class="container--testimonial__content">
+    <div class="layout--testimonials bg-dark">
+      <div class="container  container--testimonials">
         <h1 class="heading"><strong>Testimonials</strong> About Us</h1>
         <p class="paragraph color-faded">Dolor sit Molitia harum et ut eque velit.</p>
         <div class="testimonial-group flex-center">
@@ -229,7 +287,7 @@
             <img src="./images/t-2.jpeg" alt="" class="avatar">
             <h1 class="name">Robert Newman</h1>
             <p class="company-name color-faded--light">Space X</p>
-            <p class="description color-faded-l-ight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolorem alias sequi, unde id ut ab molestiae, eos, ea tempore quas quis debitis nostrum dicta quidem quod nam error necessitatibus.
+            <p class="description color-faded--light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolorem alias sequi, unde id ut ab molestiae, eos, ea tempore quas quis debitis nostrum dicta quidem quod nam error necessitatibus.
             </p>
           </article>
         </div>
@@ -239,79 +297,82 @@
         </div>
       </div>
     </div>
-
-    <div class="container container--blogs">
-      <div class="blogs-content">
-        <h1 class="heading">Latest <strong>blogs</strong> posts</h1>
-        <p class="paragraph color-faded--dark">Dolor sit Molitia harum et ut eque velit.</p>
-      </div>
-      <div class="cards">
-        <div class="card card--blogs">
-          <img src="./images/img-2.jpg" alt="">
-          <article>
-            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
-            <p class="color-faded--dark m-b--30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, praesentium.</p>
-            <button class="btn btn-dark">Read more</button>
-          </article>
+    <div class="layout--blogs">
+      <div class="container container--blogs">
+        <div class="blogs-content">
+          <h1 class="heading">Latest <strong>blogs</strong> posts</h1>
+          <p class="paragraph color-faded--dark">Dolor sit Molitia harum et ut eque velit.</p>
         </div>
-        <div class="card card--blogs">
-          <img src="./images/img-2.jpg" alt="">
-          <article>
-            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
-            <p class="color-faded--dark m-b--30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, praesentium.</p>
-            <button class="btn btn-filled">Read more</button>
-          </article>
-        </div>
-        <div class="card card--blogs">
-          <img src="./images/img-2.jpg" alt="">
-          <article>
-            <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
-            <p class="color-faded--dark m-b--30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, praesentium.</p>
-            <button class="btn btn-dark">Read more</button>
-          </article>
+        <div class="cards">
+          <div class="card card--blogs">
+            <img src="./images/img-2.jpg" alt="">
+            <article>
+              <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+              <p class="color-faded--dark m-b--30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, praesentium.</p>
+              <button class="btn btn-dark">Read more</button>
+            </article>
+          </div>
+          <div class="card card--blogs">
+            <img src="./images/img-2.jpg" alt="">
+            <article>
+              <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+              <p class="color-faded--dark m-b--30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, praesentium.</p>
+              <button class="btn btn-dark">Read more</button>
+            </article>
+          </div>
+          <div class="card card--blogs">
+            <img src="./images/img-2.jpg" alt="">
+            <article>
+              <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+              <p class="color-faded--dark m-b--30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, praesentium.</p>
+              <button class="btn btn-dark">Read more</button>
+            </article>
+          </div>
         </div>
       </div>
     </div>
 
     <footer>
-      <img src="./images/logo-footer.jpg" alt="" class="logo">
-      <div class="footer-links-container ">
-        <div class="footer-links-container__sub">
-          <h3 class="m-b--30">Company</h3>
-          <ul class="footer-links color-faded--light">
-            <li class="link color-faded--light">about</li>
-            <li class="link color-faded--light">support</li>
-            <li class="link color-faded--light">press</li>
-            <li class="link color-faded--light">legal & privacy</li>
-          </ul>
-        </div>
-        <div class="footer-links-container__sub">
-          <h3 class="m-b--30">Quick Links</h3>
-          <ul class="footer-links color-faded--light">
-            <li class="link color-faded--light">News</li>
-            <li class="link color-faded--light">Contact us</li>
-            <li class="link color-faded--light">FAQ</li>
-          </ul>
-        </div>
-        <div class="footer-links-container__sub">
-          <h3 class="m-b--30">Social</h3>
-          <ul class="footer-links color-faded--light">
-            <li class="link color-faded--light">Facebook</li>
-            <li class="link color-faded--light">Google +</li>
-            <li class="link color-faded--light">Twitter</li>
-            <li class="link color-faded--light">instagram</li>
-          </ul>
-        </div>
-        <div class="footer-links-container__sub">
-          <h3 class="m-b--30">Subscribe newsletter</h3>
-          <div class="search-bar">
-            <input type="text" class="search-input" placeholder="email">
-            <button class="search-btn"><img src="./images/icons/i-message.svg" alt=""></button>
+      <div class="container container--footer">
+        <img src="./images/logo-footer.jpg" alt="" class="logo">
+        <div class="footer-links-container ">
+          <div class="footer-links-container__sub">
+            <h3 class="m-b--30">Company</h3>
+            <ul class="footer-links color-faded--light">
+              <li class="link color-faded--light">about</li>
+              <li class="link color-faded--light">support</li>
+              <li class="link color-faded--light">press</li>
+              <li class="link color-faded--light">legal & privacy</li>
+            </ul>
+          </div>
+          <div class="footer-links-container__sub">
+            <h3 class="m-b--30">Quick Links</h3>
+            <ul class="footer-links color-faded--light">
+              <li class="link color-faded--light">News</li>
+              <li class="link color-faded--light">Contact us</li>
+              <li class="link color-faded--light">FAQ</li>
+            </ul>
+          </div>
+          <div class="footer-links-container__sub">
+            <h3 class="m-b--30">Social</h3>
+            <ul class="footer-links color-faded--light">
+              <li class="link color-faded--light">Facebook</li>
+              <li class="link color-faded--light">Google +</li>
+              <li class="link color-faded--light">Twitter</li>
+              <li class="link color-faded--light">instagram</li>
+            </ul>
+          </div>
+          <div class="footer-links-container__sub">
+            <h3 class="m-b--30">Subscribe newsletter</h3>
+            <div class="search-bar">
+              <input type="text" class="search-input" placeholder="email">
+              <button class="search-btn"><img src="./images/icons/i-message.svg" alt=""></button>
+            </div>
           </div>
         </div>
+        <hr>
+        <p class="copyright color-faded--light">copyright &#169 all rights preserved late 2018 | design and Development by millerdigitaldesign</p>
       </div>
-      <hr>
-      <p class="copyright color-faded--light">copyright &#169 all rights preserved late 2018 | design and Development by millerdigitaldesign</p>
     </footer>
   </body>
 </html>
