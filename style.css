@@ -273,8 +273,10 @@ nav{
     text-transform: uppercase;
     padding: 30px 25px;
     letter-spacing: 2px;
+    transition: background ease-out 0.5s;
+    cursor: pointer;
 }
-.navigation-bar li:first-child{
+.navigation-bar li:hover{
     background-color: rgba(222, 233, 236, 0.527);
 }
 
