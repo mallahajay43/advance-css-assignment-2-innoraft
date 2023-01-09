@@ -117,6 +117,7 @@ body {
 }
 .btn:active {
   transform: translateY(1px);
+  background-color: var(--clr-button-primary);
   box-shadow: 0 2px 2px var(--clr-secondary-dark);
 }
 
